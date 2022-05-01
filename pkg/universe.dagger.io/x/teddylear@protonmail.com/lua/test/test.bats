@@ -6,4 +6,5 @@ setup() {
 
 @test "lua" {
     dagger "do" -p ./fmtCheck.cue test
+    dagger "do" -p ./lint.cue test
 }
